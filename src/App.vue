@@ -1,6 +1,6 @@
-<template>
+<!--<template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome KimAndLimProject !"/>
+  <HelloWorld msg="Welcome to KimAndLimProject !"/>
 </template>
 
 <script>
@@ -12,7 +12,25 @@ export default {
     HelloWorld
   }
 }
+</script>-->
+
+
+<template>
+  <div>
+    <router-view />
+  </div>
+</template>
+
+<script>
+
+export default {
+  name: 'App',
+  components: {
+  },
+}
 </script>
+
+
 
 <style>
 #app {

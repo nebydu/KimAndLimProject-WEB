@@ -1,6 +1,14 @@
 <template>
+
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <div>
+      <b-card>bootstrap 적용 완료! 템플릿은 나중에!!, page간 이동 구현, axios</b-card>
+      <b-button>Button</b-button>
+      <b-button variant="danger">Button</b-button>
+      <b-button variant="success">Button</b-button>
+      <b-button variant="outline-primary">Button</b-button>
+    </div>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
