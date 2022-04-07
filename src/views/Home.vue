@@ -1,11 +1,16 @@
 <template>
+  <img alt="Vue logo" src="../assets/logo.png">
   <div>
     <router-link to='/login'>
-      <b-button variant="success">로그인 페이지로 이동</b-button>
+      <b-button variant="success">외부 API 테스트</b-button>
+    </router-link>&nbsp;&nbsp;&nbsp;
+    <router-link to='/hello'>
+      <b-button variant="danger">Hello API 테스트</b-button>
     </router-link>
-    <HelloWorld msg="KimAndLimProject"/>
-    <!-- 메인 문구에 Home 표시를 해주자 -->
-
+  </div>
+  <br>
+  <div>
+    <HelloWorld msg="Welcome to KimAndLimProject"/>
   </div>
 </template>
 <script>

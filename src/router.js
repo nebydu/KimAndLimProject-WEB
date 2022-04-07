@@ -16,6 +16,11 @@ const routes = [
         name: 'Login-item',
         component: () => import('@/views/Login'),
     },
+    {
+        path: '/hello',
+        name: 'Hello-item',
+        component: () => import('@/views/Hello'),
+    },
 ];
 
 const router = createRouter({
