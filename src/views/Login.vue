@@ -1,4 +1,5 @@
 <template>
+  <br><br>
   <div>
     <h2>외부 API 호출 페이지</h2>
     'https://jsonplaceholder.typicode.com/users/'

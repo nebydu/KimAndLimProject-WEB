@@ -1,4 +1,5 @@
 <template>
+  <br><br>
   <div>
     <h2>hello API 호출 페이지</h2>
     1. /hello 화면 로딩과 함께 호출<br>

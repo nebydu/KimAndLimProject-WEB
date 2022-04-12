@@ -3,13 +3,18 @@ import {createWebHistory, createRouter} from 'vue-router';
 const routes = [
     {
         path: '/',
-        name: 'Home-item',
+        name: 'Home',
         component: () => import('@/views/Home'), // 동적 import
     },
     {
         path: '/test',
         name: 'test-new',
         component: () => import('@/views/test-new'),
+    },
+    {
+        path: '/header',
+        name: 'Header',
+        component: () => import('@/components/layout/Header'),
     },
     {
         path: '/login',
@@ -21,6 +26,16 @@ const routes = [
         name: 'Hello-item',
         component: () => import('@/views/Hello'),
     },
+    {
+        path: '/board/list',
+        name: 'List',
+        component: () => import('@/components/board/List'),
+    },
+    {
+        path:'/board/write',
+        name:'Write',
+        component: () => import('@/components/board/Write'),
+    }
 ];
 
 const router = createRouter({
