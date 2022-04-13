@@ -3,7 +3,7 @@
   <img alt="Vue logo" src="../assets/logo3.png">
   <br><br>
   <div>
-    <HelloWorld msg="PCR 병원 정보"/>
+    <HelloWorld msg="New PCR 병원 정보"/>
   </div>
   <br>
   <div>
