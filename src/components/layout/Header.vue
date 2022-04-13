@@ -13,17 +13,18 @@
 
 <script>
 export default {
-
+  // eslint-disable-next-line vue/multi-word-component-names
+    name: "Header",
 }
 </script>
 
 <style scoped>
-img{ padding:10px 10px;}
- header{width:100%; text-align:center; position:relative; height:120px; border-bottom:1px solid #35495e}
-header h1{position:absolute; top:0; left:100px;}
+header{width:100%; text-align:center; position:relative; height:100px; border-bottom:1px solid #C4A4B0}
+img{ padding:10px 10px;float:right;}
+header h1{position:absolute; top:0; left:50px;}
 header ul.menu:after{display:block; clear:both; content:'';}
 header ul.menu{position:absolute; top:20px; right:50px;}
-header ul.menu li{float:left; padding:10px 20px; list-style:none;}
+header ul.menu li{float:left; padding:10px 20px; list-style:none; font-weight: bold;}
 
 a{text-decoration:none; color:#333;}
 </style>

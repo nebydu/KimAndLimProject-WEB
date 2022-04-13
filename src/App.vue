@@ -45,15 +45,16 @@ export default {
 
 
 <style>
-html,body{padding:0; margin:0;}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+html,body {padding:0; margin:0;}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
-h1{color:#43b984;}
+h1{color:#424242;}
 table{width:100%; border-collapse:collapse;}
 .wrap{width:100%;}
 .container{width:800px; margin:0 auto;}

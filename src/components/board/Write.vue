@@ -1,7 +1,7 @@
 <template>
   <br>
   <div>
-    <h1>게시판 등록</h1>
+    <h2>게시판 등록</h2>
 
     <div class="AddWrap">
       <form>
@@ -32,6 +32,8 @@
 <script>
 import axios from "axios";
 export default {
+  // eslint-disable-next-line vue/multi-word-component-names
+  name: "Write",
   data() { //변수 생성
     return{
       board_code:'news'

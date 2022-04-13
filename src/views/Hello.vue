@@ -17,12 +17,23 @@
   <div>
     3. /hello/dto param 실어 호출<br>
     <form v-on:submit="onSubmitForm">
-      <input type="text" v-model="inputName">
-      <button>Submit</button>
+<!--      <input type="text" v-model="inputName">-->
+        <input class="form-control input-group-sm" type="text" v-model="inputName"  placeholder="Enter your name">
+        <button>Submit</button>
       <br>
       response : {{ helloName }}님, 안녕하세요~!
     </form>
   </div>
+<!--  <br><br><br><br>-->
+<!--  <form class="row g-3">
+    <div class="col-auto">
+      <label for="staticEmail2" class="visually-hidden">Email</label>
+      <input type="text" class="form-control" id="staticEmail2" value="email@example.com">
+    </div>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
+    </div>
+  </form>-->
 
 
 </template>
@@ -48,7 +59,6 @@ export default {
   },
   methods: {
     btnCheck: function () {
-      console.log("second come on");
       this.btnCheckData = 'Hello,Hyona';
     },
     onSubmitForm(e) {
