@@ -6,9 +6,9 @@
   </div>
   <br>
 
-  <div class="table-responsive" id="example-1">
+  <div className="table-responsive" id="example-1">
     <h3> 테이블 연습 </h3><br>
-    <table  class="table table-hover" style="margin-left: auto; margin-right: auto;">
+    <table className="table table-hover" style="margin-left: auto; margin-right: auto;">
       <thead>
       <th>이름</th>
       <th>주소</th>
@@ -54,5 +54,7 @@ export default {
 </script>
 
 <style>
-ul {color: #C4A4B0}
+ul {
+  color: #C4A4B0
+}
 </style>
