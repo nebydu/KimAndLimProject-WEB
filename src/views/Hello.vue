@@ -55,6 +55,7 @@ export default {
     axios.get('/hello')
         .then(response => this.helloApiData = response)
         .catch();
+    console.log("hello api test");
     console.log(this.helloApiData);
   },
   methods: {
@@ -67,6 +68,7 @@ export default {
           {params: {name: String(this.inputName)}})
           .then(response => this.helloName = response.data.name)
           .catch();
+      console.log(this.helloName);
     },
   }
 }

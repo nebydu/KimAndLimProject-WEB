@@ -7,11 +7,11 @@
   </div>
   <br>
   <div>
-    <router-link to='/login'>
-      <b-button variant="outline-secondary">외부 API 테스트</b-button>
+    <router-link to='/old/list'>
+      <b-button variant="outline-secondary">리스트 연습</b-button>
     </router-link>&nbsp;&nbsp;&nbsp;
-    <router-link to='/hello'>
-      <b-button variant="outline-secondary">Hello API 테스트</b-button>
+    <router-link to='/hospital/list'>
+      <b-button variant="outline-secondary">병원 정보 찾기</b-button>
     </router-link>
   </div>
 </template>

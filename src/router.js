@@ -7,9 +7,14 @@ const routes = [
         component: () => import('@/views/Home'), // 동적 import
     },
     {
-        path: '/test',
-        name: 'test-new',
-        component: () => import('@/views/test-new'),
+        path: '/old/list',
+        name: 'OldList',
+        component: () => import('@/views/OldList'),
+    },
+    {
+        path: '/hospital/list',
+        name: 'HospitalList',
+        component: () => import('@/views/HospitalList'),
     },
     {
         path: '/header',
